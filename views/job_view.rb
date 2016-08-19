@@ -1,6 +1,0 @@
-class JobView
-
-
-
-
-end
