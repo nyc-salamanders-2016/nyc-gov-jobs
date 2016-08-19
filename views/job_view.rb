@@ -1,5 +1,3 @@
-require_relative '../tools/nyc_gov_job_parser'
-
 class JobView
   def greeting
     puts "Looking for an NYC government job (y/n)?"
