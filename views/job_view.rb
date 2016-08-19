@@ -45,4 +45,8 @@ class JobView
   def interested?
     gets.chomp
   end
+
+  def listing_info_available
+    puts "Here's the info to apply. Best of luck to you!"
+  end
 end
