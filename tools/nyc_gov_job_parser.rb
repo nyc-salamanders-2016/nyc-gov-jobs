@@ -24,5 +24,13 @@ module NYCGovJobParser
     end
     agencies_array.sort
   end
+
+  def self.preferences(agency, salary)
+    listings = self.all_listings
+    selected_listings = listings.select do |listing|
+      listing["agency"] == agency && listing["salary_range_from"] >= salary
+    end
+    selected_listings
+  end
 end
 
