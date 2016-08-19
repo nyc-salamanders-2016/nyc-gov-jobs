@@ -12,6 +12,3 @@ module NYCGovJobParser
   end
 end
 
-module NYCGovJobParser
-
-end
